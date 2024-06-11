@@ -280,14 +280,8 @@ header {
 
 /* About me */
 .about-me {
-    background-color: var(--clr-dark);
-    background-image: url(../img/about-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-blend-mode: lighten;
     opacity: 0.9;
-    color: var(--clr-light);
+    color: black;
 }
 
 .section__title--about {
@@ -488,7 +482,7 @@ header {
     background-size: cover;
     background-position: center center;
     background-blend-mode: lighten;
-    opacity: 0.9;
+    opacity: 1;
     color: var(--clr-light);
 }
 .row {
@@ -519,12 +513,12 @@ header {
 }
 
 .content-section .card a:hover{
-    opacity: .2;
+    opacity: 89;
     color: var(--clr-accent);
 }
 
 .content-section .card a img:hover{
-    opacity: .2;
+    opacity: .8;
 }
 
 .content-section .card h4 {
