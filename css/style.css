@@ -319,12 +319,6 @@ header {
 /* Education */
 .education {
     background-color: var(--clr-dark);
-    background-image: url(../img/education-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-blend-mode: lighten;
-    opacity: 0.9;
     color: var(--clr-light);
 }
 
@@ -343,7 +337,7 @@ header {
  
 .timeline-body{
     position: relative;
-    background-color: var(--clr-dark-accent);
+    background-color: #fbb3ddd6;
     margin-left: 100px;
     border-radius: 0 8px 8px 0;
     padding: 5px 0;
